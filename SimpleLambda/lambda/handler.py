@@ -7,6 +7,3 @@ def main(event, context):
 
     data = res.data.decode('utf-8')
     print(f"Request status: {res.status}")
-
-
-main(None, None)
